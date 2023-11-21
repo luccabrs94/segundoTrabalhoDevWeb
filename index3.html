@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Comparador de Planos de Saúde</title>
+  </head>
+  <body>
+    <section class="container">
+    
+        <h1>Calculadora de Plano de Saúde</h1>
+        <form action="/" id="formulario" method="POST">
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" required><br>
+
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" step="0.01" required><br>
+
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" step="0.01" required><br>
+        </form>
+        <button onclick="calcularPlano()">Calcular</button>
+        <p><a href="index.html"><strong> Voltar </strong></a></p>
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    
+    </section>
+    <script src="script.js"></script>
+    </section>
+    </body>
+    </html>
